@@ -1,4 +1,6 @@
 const age = document.querySelector('.yearsDisplayDiv');
+const months = document.querySelector('.monthsDisplayDiv');
+const days = document.querySelector('.daysDisplayDiv');
 const currentMonth = new Date().getMonth() + 1;
 const yearInput = document.querySelector('.yearInput');
 const monthInput = document.querySelector('.monthInput')
@@ -15,10 +17,10 @@ function calculateAge() {
         dayInput.value
     );
 
-    age.textContent = getExactAge(birthday);
-    console.log(getExactMonthsAfter(birthday));
-    console.log(getDaysAfterLastBirthday(birthday));
-}
+age.textContent = `${getExactAge(birthday)} year(s)`;
+months.textContent =  `${getExactMonthsAfter(birthday)} month(s)`;
+days.textContent =  `${getDaysAfterLastBirthday(birthday)} day(s)`;
+    }
 
 function getExactAge(birthday) {
     const now = new Date();
