@@ -11,6 +11,12 @@ const calculateButton = document.querySelector('.button');
 calculateButton.addEventListener('click', calculateAge);
 
 function calculateAge() {
+
+    if (yearInput.value === '' || monthInput.value === '' || dayInput.value === '') {
+        console.log('empty input');
+        return;
+    }
+    
     const birthday = new Date(
         yearInput.value,
         monthInput.value - 1,
