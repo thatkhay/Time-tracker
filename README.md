@@ -56,7 +56,7 @@ If i had more time i would have added a loding gif before age is calculated to g
 ## Author
 
 DEV KHAY
-- Twitter - [@yourusername](https://www.twitter.com/that_khayy)
+- Twitter - [@that_khayy](https://www.twitter.com/that_khayy)
 
 
 ## Acknowledgments
