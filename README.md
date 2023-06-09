@@ -63,3 +63,6 @@ DEV KHAY
 
 chatGBT and myself
 
+![timetracker](https://github.com/thatkhay/Time-tracker/assets/117424081/3af40de2-8a60-47b3-aacd-1a7b2002f697)
+
+
